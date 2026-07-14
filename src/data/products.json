@@ -1,0 +1,96 @@
+{
+  "cameras": [
+    {
+      "id": "outdoor_camera",
+      "title": "Wireless Outdoor Camera",
+      "description": "1080p HD video, wire-free setup, night vision, and smart motion alerts.",
+      "basePrice": 149.99,
+      "comparePrice": 189.99,
+      "badge": "Save 21%",
+      "variants": [
+        { "id": "snow", "name": "Snow", "hex": "#F8F9FA", "border": "#DEE2E6" },
+        { "id": "charcoal", "name": "Charcoal", "hex": "#212529", "border": "#495057" }
+      ]
+    },
+    {
+      "id": "indoor_camera",
+      "title": "Smart Indoor Camera",
+      "description": "Perfect for monitoring pets and checking in. Wide-angle lens, privacy shutter, and clear audio.",
+      "basePrice": 79.99,
+      "comparePrice": 99.99,
+      "badge": "Save 20%",
+      "variants": [
+        { "id": "snow", "name": "Snow", "hex": "#F8F9FA", "border": "#DEE2E6" },
+        { "id": "charcoal", "name": "Charcoal", "hex": "#212529", "border": "#495057" }
+      ]
+    },
+    {
+      "id": "video_doorbell",
+      "title": "Smart Video Doorbell",
+      "description": "See who is at your doorstep. 2-way audio, HDR video, and package detection.",
+      "basePrice": 119.99,
+      "comparePrice": 149.99,
+      "badge": "Save 20%",
+      "variants": null
+    }
+  ],
+  "plans": [
+    {
+      "id": "fast_protect",
+      "title": "Fast Protect™ Plan",
+      "description": "24/7 professional monitoring with police dispatch, fire protection, and live video verification.",
+      "price": 29.99,
+      "billing": "/mo",
+      "features": ["24/7 Police & Fire Dispatch", "Video Verification", "Cellular Backup", "Unlimited Camera Recording"]
+    },
+    {
+      "id": "standard",
+      "title": "Standard Monitoring",
+      "description": "24/7 professional monitoring for police and fire dispatch. Basic alerts.",
+      "price": 19.99,
+      "billing": "/mo",
+      "features": ["24/7 Police & Fire Dispatch", "Cellular Backup"]
+    },
+    {
+      "id": "self_monitoring_recording",
+      "title": "Self-Monitoring + Recording",
+      "description": "Camera recording and basic alerts. No professional dispatch.",
+      "price": 9.99,
+      "billing": "/mo",
+      "features": ["Unlimited Camera Recording", "Basic Alerts"]
+    },
+    {
+      "id": "self_monitoring",
+      "title": "Self-Monitoring (Free)",
+      "description": "No monthly fees, basic notifications only.",
+      "price": 0.00,
+      "billing": "/mo",
+      "features": ["Basic Alerts", "No Dispatch"]
+    }
+  ],
+  "sensors": [
+    {
+      "id": "entry_sensor",
+      "title": "Entry Sensor",
+      "description": "Detects when doors or windows open.",
+      "basePrice": 14.99,
+      "defaultQty": 3
+    },
+    {
+      "id": "motion_sensor",
+      "title": "Motion Sensor",
+      "description": "Detects movement within a 30-foot range.",
+      "basePrice": 29.99,
+      "defaultQty": 1
+    }
+  ],
+  "accessories": [
+    {
+      "id": "keychain_remote",
+      "title": "Keychain Remote",
+      "description": "Arm and disarm your system with a press of a button.",
+      "basePrice": 24.99,
+      "defaultQty": 1
+    }
+  ]
+}
