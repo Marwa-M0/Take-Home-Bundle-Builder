@@ -23,10 +23,3 @@ dist-ssr
 *.sln
 *.sw?
 
-# Figma design reference exports (kept local, not part of the submission)
-large1.png
-large2.png
-mobile2.png
-
-# Local AI tooling config
-.claude/
